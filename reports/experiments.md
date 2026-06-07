@@ -16,3 +16,6 @@
 ## Próximo paso
 - Confusion matrix + ejemplos de confusiones (error analysis).
 - “Human-in-the-loop”: si la confianza del modelo es baja, mandar a revisión humana.
+
+### Nota de error analysis (baseline)
+- Principal patrón de error: múltiples categorías se predicen como **Hardware** (catch-all). Confusiones top: HR Support→Hardware (172), Misc→Hardware (142), Admin rights→Hardware (109).
